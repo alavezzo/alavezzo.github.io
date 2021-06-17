@@ -6,5 +6,48 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    color: lightblue;
+    background-color: lightblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 15px;
+}
+header h1 {
+    color: purple;
+}
+
+header p {
+    color: red;
+}
+header a {
+    text-decoration: none;
+    color: green;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 0 10px;
+    font-weight: lighter;
+    font-size: 1.4vw;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
 }
