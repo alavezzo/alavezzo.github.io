@@ -6,5 +6,84 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    color: lightblue;
+    background-color: lightblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+}
+header h1 {
+    color: purple;
+}
+
+header p {
+    color: red;
+}
+header a {
+    text-decoration: none;
+    color: green;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 0 10px;
+    font-weight: lighter;
+    font-size: 1.4vw;
+}
+
+.about h2 {
+    text-align: center;
+    padding: 10px 0;
+}
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px 40px;
+}
+
+.about img {
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.works h2 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    margin: 10px 0px;
+}
+
+.contact {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 100px;
 }
