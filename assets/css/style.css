@@ -41,6 +41,20 @@ header nav ul li a {
     font-size: 1.4vw;
 }
 
+.about h2 {
+    text-align: center;
+}
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about img {
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+}
 .works {
     display: flex;
     flex-wrap: wrap;
@@ -50,4 +64,7 @@ header nav ul li a {
 .project {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px 50px;
+    margin: 10px 20px;
 }
