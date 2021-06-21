@@ -7,9 +7,15 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: lightblue;
+    position: relative;
 }
 
 header {
+    height: max(calc(100vh - 170px),430px);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: -1;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -41,6 +47,9 @@ header nav ul li a {
     font-size: 1.4vw;
 }
 
+.scroll {
+    background-color: lightcyan;
+}
 .about h2 {
     text-align: center;
     padding: 10px 0;
@@ -77,8 +86,15 @@ header nav ul li a {
     margin: 10px 0px;
 }
 
+.contact-footer {
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
 .contact {
     text-align: center;
+    margin: 25px 0;
 }
 
 footer {
