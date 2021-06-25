@@ -5,42 +5,62 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    height: max(calc(100vh - 250px),300px);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     padding: 20px 100px;
-}
-header h1 {
-    color: purple;
+    display: grid;
+    font-family: 'finger_paintregular';
+    background-image: url("../images/awoodbackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    
 }
 
-header p {
-    color: red;
+header h1 {
+    grid-column: 2/span 3;
+    font-size: 60px;
+    color: crimson;
 }
+
 header a {
     text-decoration: none;
-    color: green;
+    color:crimson;
+}
+
+header nav {
+    grid-column: 6/span 2;
 }
 
 header nav ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
     list-style: none;
+    padding: 20px 10px;
 }
 
+header nav ul li {
+    padding: 0px 10px 50px 0;
+}
 header nav ul li a {
-    padding: 0 10px;
     font-weight: lighter;
-    font-size: 1.4vw;
+    font-size: 2.0vw;
 }
 
+.scroll {
+    position: relative;
+    z-index: 2;
+    background-color: seashell;
+}
 .about h2 {
     text-align: center;
     padding: 10px 0;
@@ -77,8 +97,20 @@ header nav ul li a {
     margin: 10px 0px;
 }
 
+.contact-footer {
+    background-image: url("../images/awoodbackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    position:-webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    padding: 40px 0;
+}
 .contact {
     text-align: center;
+    margin: 25px 0;
 }
 
 footer {
