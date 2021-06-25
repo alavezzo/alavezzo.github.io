@@ -6,34 +6,39 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: seashell;
 }
 
 header {
-    height: max(calc(100vh - 200px),430px);
+    height: max(calc(100vh - 250px),300px);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1;
     padding: 20px 100px;
     display: grid;
-    font-family: 'monofettregular';
+    font-family: 'finger_paintregular';
+    background-image: url("../images/awoodbackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    
 }
 
 header h1 {
-    color: black;
     grid-column: 2/span 3;
     font-size: 60px;
+    color: crimson;
 }
 
 header a {
     text-decoration: none;
-    color: black;
+    color:crimson;
 }
 
 header nav {
     grid-column: 6/span 2;
 }
+
 header nav ul {
     display: flex;
     flex-direction: column;
@@ -52,9 +57,9 @@ header nav ul li a {
 }
 
 .scroll {
-    background-color: lightcyan;
     position: relative;
     z-index: 2;
+    background-color: seashell;
 }
 .about h2 {
     text-align: center;
@@ -93,9 +98,15 @@ header nav ul li a {
 }
 
 .contact-footer {
+    background-image: url("../images/awoodbackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
     position:-webkit-sticky;
     position: sticky;
     bottom: 0;
+    z-index: 1;
+    padding: 40px 0;
 }
 .contact {
     text-align: center;
