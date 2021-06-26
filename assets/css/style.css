@@ -126,13 +126,12 @@ header nav ul li a {
 #works-header {
     text-align: center;
     padding: 10px 0;
-    width: 35%;
-    align-items: center;
+    width: 8%;
+    background-color: rgb(255, 255, 255, .8); 
 }
 
 #works-header h2 {
-    background-color: rgb(255, 255, 255, .8); 
-    width: 10%;
+    
 }
 .projects {
     width: 50%;
@@ -148,11 +147,12 @@ header nav ul li a {
 
 .projects a {
     text-decoration: none;
+    color: black;
 }
 
 .primary-project {
     width: 96.66%;
-    margin: auto;
+    margin:15px auto 0 auto;
 }
 
 .secondary-projects {
@@ -163,15 +163,20 @@ header nav ul li a {
 
 .projects-one {
     width: 47.5%;
+    margin: auto;
 }
 .projects-two {
     width: 47.5%;
+    margin: auto;
 }
-#project-card {
-    padding: 40px 0px;
-    margin: 10px 0px;
+.project-card {
+    padding: 80px 0px;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
+}
+
+.first-row {
+    margin-bottom: 10px;
 }
 
 .contact-footer {
