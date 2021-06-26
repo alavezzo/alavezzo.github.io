@@ -15,7 +15,7 @@ header {
     top: 0;
     z-index: 1;
     padding: 20px 100px;
-    display: grid;
+    display: flex;
     background-image: url("../images/awoodbackground.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -24,9 +24,9 @@ header {
 }
 
 header h1 {
-    grid-column: 2/span 3;
     font-size: 60px;
     color: white;
+    background-color: rgba(22, 19, 19, 0.8);
 }
 
 header a {
@@ -35,7 +35,7 @@ header a {
 }
 
 header nav {
-    grid-column: 6/span 2;
+    
 }
 
 header nav ul {
@@ -45,14 +45,18 @@ header nav ul {
     flex-wrap: wrap;
     list-style: none;
     padding: 20px 10px;
+    align-items: center;
 }
 
 header nav ul li {
     padding: 0px 10px 50px 0;
+    
 }
 header nav ul li a {
     font-weight: lighter;
     font-size: 2.0vw;
+    background-color: rgba(22, 19, 19, 0.8)
+
 }
 
 .scroll {
@@ -75,7 +79,7 @@ header nav ul li a {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%;   
+    width: 35%;   
 }
 
 .about h2 { 
@@ -111,24 +115,63 @@ header nav ul li a {
 .works {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: space-between;
     background-image: url("../images/awoodbackground.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
+    padding: 150px 150px;
 }
 
-.works h2 {
+#works-header {
     text-align: center;
     padding: 10px 0;
+    width: 35%;
+    align-items: center;
 }
 
-.project {
+#works-header h2 {
+    background-color: rgb(255, 255, 255, .8); 
+    width: 10%;
+}
+.projects {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, .8);
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.primary-project {
+    width: 96.66%;
+    margin: auto;
+}
+
+.secondary-projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 30px 0px;
+}
+
+.projects-one {
+    width: 47.5%;
+}
+.projects-two {
+    width: 47.5%;
+}
+#project-card {
+    padding: 40px 0px;
     margin: 10px 0px;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
 }
 
 .contact-footer {
