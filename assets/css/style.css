@@ -47,16 +47,15 @@ header nav {
 header nav ul {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     list-style: none;
-    padding: 20px 10px;
     align-items: center;
 }
 
 header nav ul li {
-    padding: 0px 10px 50px 0;
-    
+    padding: 3vh 0 5vh 0;
+    text-align: center;
 }
 header nav ul li a {
     font-weight: lighter;
@@ -73,10 +72,9 @@ header nav ul li a {
 .about {
     display: flex;
     flex-wrap: wrap;
-    padding: 150px 150px;
+    padding: 20vh 20vh;
     background-image: url(../images/carbackground.jpg);
     background-size: cover;
-    background-attachment: bottom;
     justify-content: space-between;
 }
 
@@ -88,40 +86,51 @@ header nav ul li a {
     width: 35%;
 }
 
-.about h2 { 
-    text-align: center;
-    font-size: 40px;
-    padding: 20px 0 50px 30px;
-    background-color: rgba(255, 255, 255, .8);
+.about-header {
+    display: flex;
     height: 30%;
+    background-color: rgba(255, 255, 255, .8);
     box-shadow: 0 0 7px rgba(22, 19, 19, 0.3);
-    border-radius: 15px;   
+    border-radius: 15px;  
+}
+
+.about h2 { 
+    font-size: 3vw;
+    margin: auto;
 }
 
 .image {
+    display: flex;
     background-color: rgba(255, 255, 255, .8);
     height: 60%;
     box-shadow: 0 0 7px rgba(22, 19, 19, 0.3);
     border-radius: 15px;   
+    align-items: center;
 }
 
 .about img {
     border-radius: 50%;
-    width: 25%; 
+    max-width: 60%;
+    max-height: 60%;
     display: block;
-    margin: auto auto;
-    padding: 10px 0;
+    margin: auto;
 }
 
 .about-content {
+    display: flex;
     width: 50%;
     padding: 40px 40px;
     background-color: rgba(255, 255, 255, .8);
-    line-height: 1.5;
-    font-size: 26px;
+    line-height: 1.75;
+    font-size: 2vw;
     text-align: center;
     box-shadow: 0 0 7px rgba(22, 19, 19, 0.3);
     border-radius: 15px;   
+}
+
+.about-content p {
+    display: block;
+    margin: auto;
 }
 
 .works {
@@ -135,7 +144,10 @@ header nav ul li a {
     padding: 150px 150px;
 }
 
-#works-header {
+.works-header {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     text-align: center;
     padding: 10px 0;
     width: 8%;
@@ -146,14 +158,14 @@ header nav ul li a {
 
 
 .projects {
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: rgba(255, 255, 255, .8);
     box-shadow: 0 0 7px rgba(22, 19, 19, 0.3);
     border-radius: 15px; 
-    padding: 0 10px;
+    padding: 0 1.34vh;
 }
 
 .projects h2 {
@@ -163,11 +175,12 @@ header nav ul li a {
 .projects a {
     text-decoration: none;
     color: black;
+    font-size: 1vw;
 }
 
 .primary-project {
     width: 96.66%;
-    margin:15px auto 0 auto;
+    margin: 2vh auto 0 auto;
 }
 
 .secondary-projects {
@@ -180,13 +193,14 @@ header nav ul li a {
     width: 47.5%;
     margin: auto;
 }
+
 .projects-two {
     width: 47.5%;
     margin: auto;
 }
+
 .project-card {
-    padding: 80px 0px;
-    background-image: url("../images/hero-bg.jpg");
+    padding: 10vh 0;
     background-size: cover;
     border: 1px solid rgb(22, 19, 19);
     border-radius: 15px;
@@ -194,6 +208,22 @@ header nav ul li a {
 
 .first-row {
     margin-bottom: 10px;
+}
+
+#run-buddy {
+    background-image: url("../images/hero-bg.jpg");
+}
+
+#robot-gladiators {
+    background-image: url("../images/battlebot.jpg");
+    background-size: contain;
+    background-position: bottom;
+}
+
+#project-one, #project-two, #project-three {
+    background-image: url("../images/download.png");
+    background-size: cover;
+    background-position: 50%;
 }
 
 .contact-footer {
@@ -218,4 +248,132 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px 100px;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10vh;
+    }
+    
+    .page-header {
+        width: 100%;
+        text-align: center;
+        height: 35%
+    }
+
+    header nav {
+        width: 100%;
+        height: 65%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    header nav ul {
+        width: 100%;
+        background-color: rgba(255, 255, 255, .8);
+        box-shadow: 0 0 7px rgba(22, 19, 19, 0.3);
+        border-radius: 15px;   
+        margin: 0 30%;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    padding: 10vh;
+}
+
+.about-header {
+    margin: 0 0 2vh 0;
+}
+.header-image {
+    width: 75%;
+}
+
+.image {
+    margin: 0 0 2vh 0;
+}
+.about img {
+    padding: 5vh;
+}
+
+.about-content {
+    width: 75%;
+    height: 20%;
+}
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header nav ul {
+        width: 100%;
+        background-color: rgba(255, 255, 255, .8);
+        box-shadow: 0 0 7px rgba(22, 19, 19, 0.3);
+        border-radius: 15px;   
+        margin: 0 20%;
+    }
+    .about {
+        padding: 7vh;
+    }
+    .works {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10vh 17vw;
+    }
+
+    .works-header {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    
+    .projects {
+        width: 100%;
+    }
+    
+   .primary-project {
+       margin: 2vh auto;
+   }
+    .secondary-projects {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .projects-one {
+        width: 96.66%;
+        margin-bottom: 2vh;
+    }
+
+    .projects-two {
+        width: 96.66%;
+        margin-bottom: 2vh;
+    }
+    
+    .first-row {
+        margin-bottom: 2vh;
+    }
+
+    footer {
+        text-align: center;
+    }
+    #copy {
+        margin: auto;
+    }
 }
