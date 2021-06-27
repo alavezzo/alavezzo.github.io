@@ -66,6 +66,7 @@ header nav ul li a {
 .scroll {
     position: relative;
     z-index: 2;
+    text-shadow: 1px 1px 5px rgba(154, 193, 238, 0.8)
 }
 
 .about {
@@ -83,7 +84,7 @@ header nav ul li a {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    width: 35%;   
+    width: 35%;
 }
 
 .about h2 { 
@@ -92,11 +93,15 @@ header nav ul li a {
     padding: 20px 0 50px 30px;
     background-color: rgba(255, 255, 255, .8);
     height: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;   
 }
 
 .image {
     background-color: rgba(255, 255, 255, .8);
     height: 60%;
+    box-shadow: 0 0 10px rgba(22, 19, 19, 0.8);
+    border-radius: 15px;   
 }
 
 .about img {
@@ -114,6 +119,8 @@ header nav ul li a {
     line-height: 1.5;
     font-size: 26px;
     text-align: center;
+    box-shadow: 0 0 10px rgba(22, 19, 19, 0.8);
+    border-radius: 15px;   
 }
 
 .works {
@@ -188,11 +195,16 @@ header nav ul li a {
     background-position: 80%;
     padding: 40px 0;
 }
+
 .contact {
     text-align: center;
-    margin: 25px 0;
+    width:fit-content;
+    padding: 40px;
+    margin: auto;
 }
-
+ .contact ul {
+     list-style-type: none;
+ }
 footer {
     display: flex;
     flex-wrap: wrap;
