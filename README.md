@@ -2,7 +2,7 @@
 
 Welcome to my portfolio!
 
-This site hosts links to applications that I have worked on and am excited to share to the world! It also informs the visitor a little about my story and lists contact information to reach out.
+This site hosts applications I have worked on and am excited to share with the world! Also included is little about me and contact information if anyone wishes to get in touch.
 
 ## Link To Webpage
 
