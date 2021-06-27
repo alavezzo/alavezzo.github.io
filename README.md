@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio!
+Welcome to my portfolio!!
 
 This site hosts applications I have worked on and am excited to share with the world! Also included is little about me and contact information if anyone wishes to get in touch.
 
