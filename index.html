@@ -10,47 +10,57 @@
 </head>
 <body>
     <header>
-    <div>
-        <h1>ANTHONY LAVEZZO</h1>
+    <div class="page-header">
+        <h1>
+            <a href="./index.html">ANTHONY LAVEZZO</a>
+        </h1>
     </div>
         <nav>
             <ul>
-                <li>
+                <li id = "one">
                     <a href="#who-i-am">Who i am</a>
                 </li>
-                <li>
+                <li id = "two">
                     <a href="#works">Catalog of work</a>
                 </li>
-                <li>
+                <li id="three">
                     <a href="#contact">Get in touch</a>
                 </li>
             </ul>
         </nav>
     </header>
+
     <section class="scroll">
+
         <section id="who-i-am" class="about">
             <div class="header-image">
-                <h2> Who i am </h2>
+                <div class="about-header">
+                    <h2> Who i am </h2>
+                </div>
                 <div class="image">
-                <img src="./assets/images/Headshot 1 2.JPG" alt="Anthony Smiling">
+                    <img src="./assets/images/Headshot 1 2.JPG" alt="Anthony Smiling">
                 </div>
             </div>
             <div class="about-content"> 
-                <p>I'm a full stack web-developer hailing from Los Angeles. I like good weather, good music, and good design. Reach out for all your full stack web-development needs! SKEW!!!</p> 
+                <p>I am a full stack web-developer hailing from Los Angeles. I like good weather, good music, and good design. Reach out for all your full stack web-development needs! SKEW!!!</p> 
             </div>
         </section>
 
         <section id="works" class="works">
             
-            <div id="works-header">
-                <h2>W<br>O<br>R<br>K<br>S</h2>
+            <div class="works-header">
+                <h2>W</h2>
+                <h2>O</h2>
+                <h2>R</h2>
+                <h2>K</h2>
+                <h2>S</h2>
             </div>
 
             <section class="projects">
             
                 <article class="primary-project">
                     <a href="http://alavezzo.github.io/run-buddy/">
-                        <article class="project-card">
+                        <article class="project-card" id="run-buddy">
                                 <h2>RUN BUDDY</h2>
                         </article>
                     </a>
@@ -60,12 +70,12 @@
 
                     <div class="projects-one">
                         <a href="http://alavezzo.github.io/robot-gladiators/">
-                            <article class="project-card first-row" >
+                            <article class="project-card first-row" id="robot-gladiators">
                                     <h2>ROBOT GLADIATORS</h2>
                             </article>
                         </a>
-                        <a href="http://alavezzo.github.io/run-buddy/">
-                            <article class="project-card">
+                        <a href="">
+                            <article class="project-card" id="project-one">
                                     <h2>Project 1</h2>
                             </article>
                         </a>
@@ -73,14 +83,14 @@
 
                     <div class="projects-two">
 
-                        <a href="http://alavezzo.github.io/run-buddy/">
-                            <article class="project-card first-row">
-                                    <h2>Project 1</h2>
+                        <a href="">
+                            <article class="project-card first-row" id="project-two">
+                                    <h2>Project 2</h2>
                             </article>
                         </a>
-                        <a href="http://alavezzo.github.io/run-buddy/">
-                            <article class="project-card">
-                                    <h2>Project 1</h2>
+                        <a href="">
+                            <article class="project-card" id="project-three">
+                                    <h2>Project 3</h2>
                             </article>
                         </a>
 
@@ -91,7 +101,7 @@
             </section>
         </section>
     </section>  
-    <section id="contact" class = "contact-footer">
+    <section id="contact" class = "contact-footer scroll">
         <section class="contact">
             <h2>Get in touch</h2>
             <ul>
@@ -106,7 +116,7 @@
         
         <footer>
             <h2>Anthony Lavezzo</h2>
-            <div>
+            <div id="copy">
             &copy; 2021
             </div>
         </footer>
