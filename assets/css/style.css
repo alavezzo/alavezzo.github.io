@@ -210,6 +210,11 @@ header nav ul li a {
     margin-bottom: 10px;
 }
 
+#cocktails {
+    background-image: url("../images/cocktails-and-music.png");
+    
+
+}
 #run-buddy {
     background-image: url("../images/hero-bg.jpg");
 }
@@ -220,6 +225,13 @@ header nav ul li a {
     background-position: bottom;
 }
 
+#work-day {
+    background-image: url("../images/work-day-scheduler.png")
+}
+
+#weather-dash {
+    background-image: url("../images/weather-dash.png")
+}
 #project-one, #project-two, #project-three {
     background-image: url("../images/download.png");
     background-size: cover;
