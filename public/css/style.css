@@ -354,12 +354,7 @@ footer {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    header {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
+    
     header nav ul {
         width: 100%;
         background-color: rgba(255, 255, 255, .8);
@@ -368,8 +363,9 @@ footer {
         margin: 0 20%;
     }
     .scroll {
-        position: relative;
-        z-index: 2;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        z-index: 1000;
     }
     .about {
         padding: 7vh;
