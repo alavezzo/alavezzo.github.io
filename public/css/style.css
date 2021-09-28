@@ -368,7 +368,8 @@ footer {
         margin: 0 20%;
     }
     .scroll {
-        z-index: 0;
+        position: relative;
+        z-index: 2;
     }
     .about {
         padding: 7vh;
