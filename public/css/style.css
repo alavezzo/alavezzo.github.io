@@ -73,6 +73,8 @@ header nav ul li a {
 .scroll {
     position: relative;
     z-index: 2;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     text-shadow: 1px 1px 5px rgba(154, 193, 238, 0.8)
 }
 
