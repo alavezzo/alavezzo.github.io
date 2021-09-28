@@ -1,0 +1,27 @@
+{
+  "name": "alavezzo.github.io",
+  "version": "1.0.0",
+  "description": "Welcome to my portfolio!!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alavezzo/alavezzo.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alavezzo/alavezzo.github.io/issues"
+  },
+  "homepage": "https://github.com/alavezzo/alavezzo.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
