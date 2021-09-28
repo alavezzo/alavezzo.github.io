@@ -19,7 +19,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #ff8e3c;
-    /* background-image: url("../images/awoodbackground.jpg"); */
+    background-image: url("../images/awoodbackground.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -81,7 +81,7 @@ header nav ul li a {
     flex-wrap: wrap;
     padding: 20vh 20vh;
     background-color: seashell;
-    /* background-image: url(../images/carbackground.jpg); */
+    background-image: url(../images/carbackground.jpg);
     background-size: cover;
     justify-content: space-between;
 }
@@ -146,7 +146,7 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #ff8e3c;
-    /* background-image: url("../images/awoodbackground.jpg"); */
+    background-image: url("../images/awoodbackground.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -256,7 +256,7 @@ header nav ul li a {
 
 .contact-footer {
     background-color: #ff8e3c;
-    /* background-image: url("../images/awoodbackground.jpg"); */
+    background-image: url("../images/awoodbackground.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
