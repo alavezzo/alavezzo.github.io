@@ -359,6 +359,7 @@ footer {
 @media screen and (max-width: 575px) {
     header {
         background-size: auto;
+        background-repeat: no-repeat;
     }
     header nav ul {
         width: 100%;
