@@ -326,10 +326,6 @@ footer {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     
-header {
-    background-size:auto;
-    background-repeat: no-repeat;
-}
 .about {
     display: flex;
     flex-wrap: wrap;
@@ -362,13 +358,15 @@ header {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     header {
-        height: auto;
+        background-size: auto;
+        background-repeat: no-repeat;
     }
     header nav ul {
         width: 100%;
         background-color: rgba(255, 255, 255, .8);
         box-shadow: 0 0 7px rgba(22, 19, 19, 0.3);
-        border-radius: 15px;   
+        border-radius: 15px;  
+        margin-top: 5%;
         margin: 0 20%;
     }
     .scroll {
