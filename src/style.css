@@ -8,22 +8,33 @@ body {
     font-family: 'finger_paintregular'
 }
 
+body::before {
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #ff8e3c;
+    background: url('../images/wooden-fence.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    will-change: transform;
+    z-index: -1;
+}
 header {
     height: max(calc(100vh - 250px),300px);
-    /* position: -webkit-sticky;
-    position: sticky; */
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
     z-index: 1;
     padding: 20px 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #ff8e3c;
-    background-image: url("../images/wooden-fence.jpg");
-    background-size: cover;
-    /* background-attachment: fixed; */
-    background-position: 80%;
+    /* background-color: #ff8e3c; */
+    /* background-image: url("../images/wooden-fence.jpg");
+    background-size: cover; */
+    /* background-attachment: fixed;
+    background-position: 80%; */
     
 }
 
