@@ -325,6 +325,7 @@ footer {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+    
 header {
     background-size:auto;
     background-repeat: no-repeat;
