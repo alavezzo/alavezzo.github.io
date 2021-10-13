@@ -346,6 +346,7 @@ footer {
 }
 .about img {
     padding: 5vh;
+    width: auto
 }
 
 .about-content {
