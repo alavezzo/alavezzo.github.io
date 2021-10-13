@@ -25,7 +25,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     padding: 20px 100px;
     display: flex;
     flex-wrap: wrap;
@@ -37,6 +37,8 @@ header {
     background-position: 80%; */
     
 }
+
+
 
 header h1 {
     font-size: 3.5vw;
@@ -163,11 +165,11 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #ff8e3c;
+    /* background-color: #ff8e3c;
     background-image: url("../images/wooden-fence.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 80%; */
     padding: 150px 150px;
 }
 
@@ -252,12 +254,6 @@ header nav ul li a {
     background-position: 0%;
 }
 
-#run {
-    background-image: url("../images/battlebot.jpg");
-    background-size: contain;
-    background-position: top;
-}
-
 #work-day {
     background-image: url("../images/work-day-scheduler.png")
 }
@@ -273,13 +269,13 @@ header nav ul li a {
 }
 
 .contact-footer {
-    background-color: #ff8e3c;
+    /* background-color: #ff8e3c;
     background-image: url("../images/wooden-fence.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 80%; */
     padding: 40px 0;
-}
+} 
 
 .contact {
     text-align: center;
@@ -301,6 +297,12 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px 100px;
+}
+
+.header-disappear {
+  position: absolute;
+  top: -9999px;
+  left: -9999px
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
