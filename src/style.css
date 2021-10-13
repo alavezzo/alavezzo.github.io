@@ -19,7 +19,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #ff8e3c;
-    background-image: url("../images/awoodbackground.jpg");
+    background-image: url("../images/wooden-fence.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -152,7 +152,7 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #ff8e3c;
-    background-image: url("../images/awoodbackground.jpg");
+    background-image: url("../images/wooden-fence.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -357,10 +357,6 @@ footer {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    header {
-        background-size: auto;
-        background-repeat: no-repeat;
-    }
     header nav ul {
         width: 100%;
         background-color: rgba(255, 255, 255, .8);
