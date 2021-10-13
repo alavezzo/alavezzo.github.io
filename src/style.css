@@ -20,9 +20,6 @@ header {
     justify-content: space-around;
     background-color: #ff8e3c;
     background-image: url("../images/awoodbackground.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -328,7 +325,10 @@ footer {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-
+header {
+    background-size:auto;
+    background-repeat: no-repeat;
+}
 .about {
     display: flex;
     flex-wrap: wrap;
